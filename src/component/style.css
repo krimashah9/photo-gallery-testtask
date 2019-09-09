@@ -1,0 +1,50 @@
+.image-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: 71%;
+    margin: 0 auto;
+}
+
+.image-wrap img {
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+.image-wrap i {
+    position: relative;
+    top: 16px;
+    right: 35px;
+    cursor: pointer;
+}
+
+.tab-wrap .ui.pointing.secondary.menu {
+    background: lightgray;
+}
+
+.image-wrap .pagination-wrap {
+    width: 100%;
+}
+
+.ui.modal > .content {
+    display: flex !important;
+    justify-content: center;
+}
+
+.no-collection {
+    width: 100%;
+}
+
+.header-wrap h4{
+    white-space: nowrap;
+    padding: 6px;
+    margin:0;
+}
+
+.header-wrap {
+    display: flex;
+    margin: 0 auto;
+    width: 25%;
+}
